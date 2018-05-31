@@ -14,7 +14,7 @@ const App = () => (
     <pre>
       <code>
         {`import React, { Component } from 'react'
-import Head from './Head'
+import HeadTags from './Head'
 
 export default {
   ...
@@ -25,12 +25,12 @@ export default {
       return (
         <Html>
           <Head>
-            <Meta>
+            <HeadTags>
               <link
                 href="https://fonts.googleapis.com/css?family=Poppins:300,300i,500,700|Source+Code+Pro:400,700"
                 rel="stylesheet"
               />
-            </Meta>
+            </HeadTags>
             <meta charSet="UTF-8" />
             <meta
               name="viewport"
