@@ -14,7 +14,7 @@ const App = () => (
     <pre>
       <code>
         {`import React, { Component } from 'react'
-import HeadTags from './Head'
+import { HeadTags } from './HeadTags'
 
 export default {
   ...

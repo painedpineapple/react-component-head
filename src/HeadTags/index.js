@@ -3,7 +3,7 @@ import React from 'react'
 //
 import './analytics'
 
-export default function Meta(props: { children?: any }) {
+export function HeadTags(props: { children?: any }) {
   return (
     <React.Fragment>
       <meta charSet="UTF-8" />
